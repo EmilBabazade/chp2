@@ -21,4 +21,6 @@ int main(void) {
     printf("Dimensions: %dx%dx%d\n", height, length, width);
     printf("Volume: %f\n", volume);
     printf("Dimensional weight: %f\n", weight);
+
+    return 0;
 }
