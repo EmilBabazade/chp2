@@ -9,7 +9,7 @@ int main(void) {
     scanf("%f", &fahrenheit);
 
     float celsius = (fahrenheit - FREEZING_POINT) * SCALE_FACTOR;
-    printf("Celsius: %f\n", celsius);
+    printf("Celsius: %.1f\n", celsius);
     
     return 0;
 }
